@@ -1,0 +1,13 @@
+
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div *ngFor="let auto of data | SortSnaga:name | KubikazaMotora:name "><br/>
+      ID Auta: {{auto.idAuta}}
+      <br/> snaga Motora : {{auto.snagaMotora}}
+      <br/> Broj Vrata: {{auto.brojVrata}}<br/>
+      Kubikaza Motora : {{auto.kubikazaMotora}}
+      <br/> <br/>
+    </div>
+  <!-- /.container-fluid -->
+  </div>
+
